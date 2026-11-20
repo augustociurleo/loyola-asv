@@ -12,4 +12,6 @@ RUN apt update && apt install -y \
 
 WORKDIR /workspace
 
+RUN echo "source /opt/ros/jazzy/setup.bash" >> /root/.bashrc
+
 CMD ["bash"]
