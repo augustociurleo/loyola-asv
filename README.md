@@ -1,5 +1,5 @@
 Instalacion
-git clone https://https://github.com/augustociurleo/loyola-asv.git
+git clone https://https://github.com/robotica-asv/loyola-asv.git
 cd loyola-asv/docker
 
 docker compose build
